@@ -43,4 +43,4 @@ rm -fv */*.Rout
 make
 ```
 
-<img src="taskflow/workflow.jpeg" width=50%>
+<img src="taskflow/workflow.jpeg" width=100%>
