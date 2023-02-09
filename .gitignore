@@ -1,0 +1,10 @@
+.Rhistory
+.Rapp.history
+.RData
+.DS_Store
+*.Rout
+
+# Too heavy
+distance_matrix/output/*.*
+initial_subset/output/*.*
+input_data/*.*

@@ -1,0 +1,33 @@
+\begin{table}[!h]
+
+\caption{Multi-level linear probability models of civilian victimization (during last 5 years) on ethnic outcomes\label{tab:lme_5yr}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lcccccccc}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{4}{c}{Ethnic grievances} & \multicolumn{4}{c}{Ethnic ID} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7} \cmidrule(l{3pt}r{3pt}){8-9}
+  & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\
+\midrule
+Violence exposure & \num{-0.007} & \num{0.003} & \num{-0.012} & \num{-0.013} & \num{0.009}+ & \num{0.018}*** & \num{0.016} & \num{0.007}\\
+ & (\num{0.007}) & (\num{0.006}) & (\num{0.012}) & (\num{0.012}) & (\num{0.005}) & (\num{0.005}) & (\num{0.010}) & (\num{0.010})\\
+Collective targeting & \num{0.008} &  & \num{0.072}*** &  & \num{0.030}*** &  & \num{0.030}*** & \\
+ & (\num{0.007}) &  & (\num{0.007}) &  & (\num{0.006}) &  & (\num{0.006}) & \\
+Expo $\times$ targeting & \num{0.055}*** &  & \num{0.019} &  & \num{0.047}*** &  & \num{-0.046}* & \\
+ & (\num{0.015}) &  & (\num{0.026}) &  & (\num{0.013}) &  & (\num{0.022}) & \\
+\midrule
+$n$ & \num{107262} & \num{107262} & \num{107262} & \num{107262} & \num{114955} & \num{114955} & \num{114955} & \num{114955}\\
+AIC & \num{103918.5} & \num{103918.5} & \num{103811.2} & \num{103916.1} & \num{76775.9} & \num{76812.3} & \num{76814.9} & \num{76823.0}\\
+BIC & \num{104043.1} & \num{104023.9} & \num{103935.8} & \num{104021.5} & \num{76901.4} & \num{76918.4} & \num{76940.4} & \num{76929.1}\\
+Controls & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[para]
+\item \textit{Note: } 
+\item + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001. Control variables (not shown): urban, gender, age, employment situation, distance to national capital (in km, log). Both violence exposure and collective targeting refer to the actors defined above (state or rebels). Random intercepts by country, round and country times round (not shown).
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}

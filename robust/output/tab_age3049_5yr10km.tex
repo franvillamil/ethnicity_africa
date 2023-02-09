@@ -1,0 +1,34 @@
+\begin{table}[!h]
+
+\caption{Civilian victimization and ethnicity (age 30 to 49, exposure: 5yr, 10km)\label{tab:age3049_5yr}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lcccccccc}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{4}{c}{Ethnic grievances} & \multicolumn{4}{c}{Ethnic ID} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7} \cmidrule(l{3pt}r{3pt}){8-9}
+  & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\
+\midrule
+Violence exposure & \num{-0.139} & \num{0.087} & \num{-0.083} & \num{0.007} & \num{0.359}** & \num{0.268}*** & \num{-0.151} & \num{-0.216}\\
+ & (\num{0.103}) & (\num{0.063}) & (\num{0.144}) & (\num{0.129}) & (\num{0.110}) & (\num{0.074}) & (\num{0.231}) & (\num{0.210})\\
+Collective targeting & \num{-0.183}* &  & \num{0.355}** &  & \num{0.339}*** &  & \num{-0.039} & \\
+ & (\num{0.075}) &  & (\num{0.112}) &  & (\num{0.090}) &  & (\num{0.182}) & \\
+Expo $\times$ targeting & \num{0.558}*** &  & \num{0.279} &  & \num{0.044} &  & \num{-0.208} & \\
+ & (\num{0.156}) &  & (\num{0.251}) &  & (\num{0.181}) &  & (\num{0.465}) & \\
+\midrule
+$n$ & \num{7572} & \num{17482} & \num{2957} & \num{3265} & \num{7881} & \num{18806} & \num{3058} & \num{3366}\\
+AIC & \num{8096.5} & \num{18556.9} & \num{3274.2} & \num{3537.7} & \num{7125.8} & \num{14466.1} & \num{1725.6} & \num{1906.7}\\
+Controls & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes\\
+Country-round FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes\\
+Country-rounds & 12 & 28 & 4 & 7 & 12 & 28 & 4 & 7\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[para]
+\item \textit{Note: } 
+\item + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001. Control variables (not shown): urban, gender, age, employment situation, distance to national capital (in km, log). Country-round fixed effects not shown. Both violence exposure and collective targeting refer to the actors defined above (state or rebels).
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}

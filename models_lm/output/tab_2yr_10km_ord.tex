@@ -1,0 +1,35 @@
+\begin{table}[!h]
+
+\caption{Civilian victimization and ethnicity (exposure: prev 2yr, 10km, ord), linear model on continuous dependent variable (1-5 scale)\label{tab:2yr_10km_ord}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lcccccccc}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{4}{c}{Ethnic grievances} & \multicolumn{4}{c}{Ethnic ID} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} & \multicolumn{2}{c}{State violence} & \multicolumn{2}{c}{Rebel violence} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7} \cmidrule(l{3pt}r{3pt}){8-9}
+  & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\
+\midrule
+Violence exposure & \num{-0.035} & \num{0.017} & \num{0.103}* & \num{0.115}** & \num{0.057} & \num{-0.039} & \num{-0.061} & \num{-0.085}+\\
+ & (\num{0.037}) & (\num{0.024}) & (\num{0.042}) & (\num{0.041}) & (\num{0.047}) & (\num{0.030}) & (\num{0.046}) & (\num{0.045})\\
+Collective targeting & \num{-0.036} &  & \num{0.177}*** &  & \num{0.106}*** &  & \num{0.137}*** & \\
+ & (\num{0.024}) &  & (\num{0.031}) &  & (\num{0.028}) &  & (\num{0.034}) & \\
+Expo $\times$ targeting & \num{0.114}+ &  & \num{0.115} &  & \num{-0.083} &  & \num{-0.173}+ & \\
+ & (\num{0.060}) &  & (\num{0.085}) &  & (\num{0.071}) &  & (\num{0.093}) & \\
+\midrule
+$n$ & \num{13505} & \num{26781} & \num{6621} & \num{6621} & \num{11636} & \num{22140} & \num{6864} & \num{6864}\\
+$R^2$ & \num{0.22} & \num{0.14} & \num{0.06} & \num{0.05} & \num{0.15} & \num{0.12} & \num{0.07} & \num{0.06}\\
+Adj. $R^2$ & \num{0.22} & \num{0.14} & \num{0.05} & \num{0.05} & \num{0.15} & \num{0.12} & \num{0.06} & \num{0.06}\\
+Controls & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes\\
+Country-round FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes\\
+Country-rounds & 8 & 17 & 4 & 4 & 7 & 13 & 4 & 4\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[para]
+\item \textit{Note: } 
+\item + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001. Control variables (not shown): urban, gender, age, employment situation, distance to national capital (in km, log). Country-round fixed effects not shown. Both violence exposure and collective targeting refer to the actors defined above (state or rebels).
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
