@@ -8,7 +8,7 @@ Replication files for 'Civilian victimization and ethnic attitudes in Africa', b
 	journal = {European Political Science Review},
 	volume = {},
 	number = {},
-	pages = {},
+	pages = {1--11},
 	title = {Civilian victimization and ethnic attitudes in {A}frica},
 	year = {2023}}
 ```
@@ -37,8 +37,8 @@ Alternatively, from the command line (Unix/macOS), you can do a full replication
 To download the repository and do a full replication automatically:
 
 ```shell
-git clone https://github.com/franvillamil/ethnic_violence_africa
-cd ethnic_violence_africa
+git clone https://github.com/franvillamil/ethnicity_africa
+cd ethnicity_africa
 rm -fv */*.Rout
 make
 ```
