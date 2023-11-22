@@ -1,14 +1,14 @@
 ### README
 
-Replication files for 'Civilian victimization and ethnic attitudes in Africa', by Francisco Villamil, forthcoming in *European Political Science Review*.
+Replication files for 'Civilian victimization and ethnic attitudes in Africa', by Francisco Villamil, *European Political Science Review* 15(4): 617-627.
 
 ```
 @article{Villamil2023,
 	author = {Villamil, Francisco},
 	journal = {European Political Science Review},
-	volume = {},
-	number = {},
-	pages = {1--11},
+	volume = {15},
+	number = {4},
+	pages = {617--627},
 	title = {Civilian victimization and ethnic attitudes in {A}frica},
 	year = {2023}}
 ```
